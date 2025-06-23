@@ -1,6 +1,6 @@
 # 🎓 Student Manager API
 
-A full-stack web application for managing student records with full CRUD functionality. Built using **Node.js**, **Express**, and **MySQL**, with a simple **HTML/CSS/JavaScript** frontend.
+A full-stack web application for managing student records with full CRUD functionality. Built using **Node.js**, **Express**, and **MySQL**, with a simple **HTML/CSS/JavaScript** frontend.  Includes complete API testing and code coverage using **Jest**.
 
 ---
 
@@ -48,6 +48,24 @@ CREATE TABLE students (
   course VARCHAR(100)
 );
 ```
+### Step 2: Database Integration in Code
+
+In `db.js`, configure your MySQL connection:
+
+```js
+const mysql = require('mysql2');
+
+const pool = mysql.createPool({
+  host: 'localhost',
+  user: 'root',
+  password: 'your_password',
+  database: 'student_db',
+});
+
+module.exports = pool.promise();
+```
+
+---
 
 ## ⚙️ How to Run the Server
 
@@ -76,7 +94,7 @@ You should see:
 
 ---
 
-## 🌐 How to Run the Frontend (Optional)
+## 🌐 How to Run the Frontend
 
 - Navigate to the `frontend/` folder.
 - Open `index.html` directly in your browser.
@@ -114,6 +132,13 @@ npm test -- --coverage
 
 ![Test Coverage](https://github.com/Aman-raj25/project-API/blob/main/image/image.png?raw=true)
 
+###  Testing Frameworks Used
+
+| Tool       | Purpose               |
+|------------|------------------------|
+| Jest       | Unit and integration tests |
+| Supertest  | HTTP API testing         |
+| MySQL2     | Database driver          |
 
 ---
 
