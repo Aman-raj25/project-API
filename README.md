@@ -111,10 +111,9 @@ npm test -- --coverage
 
 ### Screenshot Example
 
-```
-![Test Coverage](https://github.com/Aman-raj25/project-API/raw/a6a69d4c00792a67b4a04efbcfb023f3c7b5d466/image/image.png)
 
-```
+![Test Coverage](https://github.com/Aman-raj25/project-API/blob/main/image/image.png?raw=true)
+
 
 ---
 
