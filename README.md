@@ -109,14 +109,12 @@ npm test -- --coverage
 - 🔄 Integration tests for DB operations
 - 🌐 API endpoint tests for request/response validation
 
-### Screenshot Example (Add Yours)
+### Screenshot Example
 
 ```
-![image alt](https://github.com/Aman-raj25/project-API/raw/a6a69d4c00792a67b4a04efbcfb023f3c7b5d466/image/image.png)
+![Test Coverage](https://github.com/Aman-raj25/project-API/raw/a6a69d4c00792a67b4a04efbcfb023f3c7b5d466/image/image.png)
 
 ```
-
-✅ Ensure minimum 70%+ coverage (target reached)
 
 ---
 
