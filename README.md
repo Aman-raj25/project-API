@@ -191,11 +191,14 @@ project-API/
 │   ├── routes/
 │   ├── db.js
 │   ├── index.js
-├── frontend/
+├── api-frontend/
 │   ├── index.html
 │   ├── style.css
 │   └── script.js
+├── image/
+│   └── image.png
 └── README.md ✅
+
 ```
 
 ---
