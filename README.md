@@ -90,6 +90,35 @@ You should see:
 
 ---
 
+## 🧪 How to Test the API
+
+### Testing Tools
+
+- **Jest** for unit, integration, and API testing
+- **supertest** for endpoint testing
+
+### Run All Tests with Coverage
+
+```bash
+npm test -- --coverage
+```
+
+### Sample Tests Include
+
+- ✅ Unit tests for controller logic
+- 🔄 Integration tests for DB operations
+- 🌐 API endpoint tests for request/response validation
+
+### Screenshot Example (Add Yours)
+
+```
+![Test Coverage](/image/image.png)
+```
+
+✅ Ensure minimum 70%+ coverage (target reached)
+
+---
+
 ## 🧪 How to Test API with Postman
 
 ### 🔹 GET All Students
