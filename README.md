@@ -112,7 +112,8 @@ npm test -- --coverage
 ### Screenshot Example (Add Yours)
 
 ```
-![Test Coverage](/image/image.png)
+![image alt](https://github.com/Aman-raj25/project-API/raw/a6a69d4c00792a67b4a04efbcfb023f3c7b5d466/image/image.png)
+
 ```
 
 ✅ Ensure minimum 70%+ coverage (target reached)
